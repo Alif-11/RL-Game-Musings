@@ -10,27 +10,39 @@ you may want to try making agents for later:
 To activate the conda environment for gymnasium, run this command:
 conda activate gymnasium
 
+
+[Environment API Docs](https://gymnasium.farama.org/api/env/)
+
+[Action Space and Observation Space API Docs](https://gymnasium.farama.org/api/spaces/)
+
+[Blackjack Gymnasium Page](https://gymnasium.farama.org/environments/toy_text/blackjack/)
+
+[Reference website to making your own Blackjack Q-Learning Agent](https://gymnasium.farama.org/introduction/train_agent/)
+
+[Guide you're following to learn Q-Learning Algorithm](https://rezaborhani.github.io/mlr/blog_posts/Reinforcement_Learning/Q_learning.html)
+
+
 Possible list of RL algorithms to implement in order:
 1. Dynamic Programming (DP):
 Start with DP concepts like value iteration and policy iteration. These provide a foundational understanding of how to compute optimal policies in a Markov Decision Process (MDP). 
 
-2. Q-learning:
+1. Q-learning:
 Implement Q-learning, a model-free RL algorithm that directly estimates the Q-values for actions in different states. 
 
-3. Deep Q-Network (DQN):
+1. Deep Q-Network (DQN):
 Explore DQN, which uses deep neural networks to approximate Q-values, allowing for learning in complex environments. 
 
-4. Policy Gradient Methods:
+1. Policy Gradient Methods:
 Move on to policy gradient methods like REINFORCE, which directly optimize the policy parameters. 
 
-5. Actor-Critic Methods:
+1. Actor-Critic Methods:
 Consider actor-critic methods like A2C, A3C, PPO, and TRPO, which combine value-based and policy-based approaches. 
 
-6. DDPG, SAC, and TD3:
+1. DDPG, SAC, and TD3:
 Explore these continuous action space algorithms, which are popular for tasks involving continuous control. 
 
-7. Model-Based RL:
+1. Model-Based RL:
 Consider model-based algorithms like World Models or Imagination-Augmented Agents for environments where a model of the environment can be learned. 
 
-8. Other Advanced Techniques:
+1. Other Advanced Techniques:
 Explore more specialized techniques like hierarchical reinforcement learning, meta-learning, and transfer learning as needed for specific applications. 
